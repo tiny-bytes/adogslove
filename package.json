@@ -1,7 +1,7 @@
 {
   "name": "adogslove",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TammyLeeSeattle/adogslove.git"
@@ -14,7 +14,8 @@
   "homepage": "https://github.com/TammyLeeSeattle/adogslove#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "cd client/adogslove && yarn && yarn run build && cd ../.. && node server",
+    "dev": "node server"
   },
   "dependencies": {
     "axios": "^0.18.0",
