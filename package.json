@@ -4,14 +4,14 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TammyLeeSeattle/adogslove.git"
+    "url": "git+https://github.com/tiny-bytes/adogslove.git"
   },
   "author": "tammyleeseattle <tammylee84@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TammyLeeSeattle/adogslove/issues"
+    "url": "https://github.com/tiny-bytes/adogslove/issues"
   },
-  "homepage": "https://github.com/TammyLeeSeattle/adogslove#readme",
+  "homepage": "https://github.com/tiny-bytes/adogslove#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd client/adogslove && yarn && yarn run build && cd ../.. && node server",
